@@ -1,6 +1,22 @@
 ---
+junos_switches:
+    - hostname: rsiteA-t2b01-vmx-junos
+      message: "THIS IS A PRIVATE NETWORK, UNAUTHORIZED USERS KEEP OUT!!!\n\n YOU WILL BE PERSUCUTED TO FULL EXTENT OF THE LAW!!!"
 
+    - hostname: rsiteA-t2b02-vmx-junos
+      message: "THIS IS A PRIVATE NETWORK, UNAUTHORIZED USERS KEEP OUT!!!\n\n YOU WILL BE PERSUCUTED TO FULL EXTENT OF THE LAW!!!"
 
+    - hostname: rsiteB-t2b01-vmx-junos
+      message: "THIS IS A PRIVATE NETWORK, UNAUTHORIZED USERS KEEP OUT!!!\n\n YOU WILL BE PERSUCUTED TO FULL EXTENT OF THE LAW!!!"
+
+    - hostname: rsiteB-t2b01-vmx-junos
+      message: "THIS IS A PRIVATE NETWORK, UNAUTHORIZED USERS KEEP OUT!!!\n\n YOU WILL BE PERSUCUTED TO FULL EXTENT OF THE LAW!!!"
+
+    - hostname: rsiteC-t2b01-vmx-junos
+      message: "THIS IS A PRIVATE NETWORK, UNAUTHORIZED USERS KEEP OUT!!!\n\n YOU WILL BE PERSUCUTED TO FULL EXTENT OF THE LAW!!!"
+
+    - hostname: rsiteC-t2b01-vmx-junos
+      message: "THIS IS A PRIVATE NETWORK, UNAUTHORIZED USERS KEEP OUT!!!\n\n YOU WILL BE PERSUCUTED TO FULL EXTENT OF THE LAW!!!"
 
 
 ...
