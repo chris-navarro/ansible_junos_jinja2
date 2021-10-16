@@ -1,7 +1,10 @@
 ---
 
+- name: Configuration of Display Login Messages for JUNOS Devices
+  hosts:
 
-
+  roles:
+   - junos_jinja2
 
 
 
