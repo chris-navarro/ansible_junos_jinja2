@@ -1,6 +1,6 @@
 ---
 - name: Generate Configuration files
-  templates: src=junos.j2 dest=/etc/ansible//CONFIGS/{{item.hostname}}.conf
+  templates: src=junos.j2 dest=tftp://192.168.0.9/tftpboot/{{item.hostname}}.conf
   with_items: "{{ junos_switches }}"
 
 
