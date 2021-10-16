@@ -1,7 +1,7 @@
 ---
 
 - name: Configuration of Display Login Messages for JUNOS Devices
-  hosts:
+  hosts: hosts.yml
 
   roles:
    - junos_switches
