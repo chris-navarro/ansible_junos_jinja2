@@ -1,5 +1,7 @@
 ---
-
+- name: Generate Configuration files
+  templates: src=junos_switches.j2 dest=/etc/ansible//CONFIGS/{{item.hostname}}.conf
+  with_items: "{{ junos_switches }}"
 
 
 
